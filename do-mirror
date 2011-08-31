@@ -1,4 +1,4 @@
 #!/bin/bash
-#wget --recursive --timestamping --level=inf --no-parent --no-remove-listing http://www.opengl.org/registry/
-#wget --recursive --timestamping --level=inf --no-parent --no-remove-listing -I/registry/gles http://www.khronos.org/registry/gles/
-find . -name '*.pdf' -exec pdftotext '{}' ';'
+wget --recursive --timestamping --level=inf --no-parent --no-remove-listing http://www.opengl.org/registry/
+wget --recursive --timestamping --level=inf --no-parent --no-remove-listing -I/registry/gles http://www.khronos.org/registry/gles/
+#find . -name '*.pdf' -exec pdftotext '{}' ';'
